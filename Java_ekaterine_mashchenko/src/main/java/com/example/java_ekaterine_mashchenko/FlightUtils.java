@@ -54,7 +54,7 @@ public class FlightUtils {
 
     public static List<Flight> getAllFlights() {
 
-        String selectSql = "SELECT * FROM FLIGHTS_SCHEDULES";
+        String selectSql = "SELECT * FROM FLIGHTS_TB";
 
         List<Flight> flights = new ArrayList<>();
 
